@@ -62,7 +62,9 @@ Essa classificação é comumente utilizada por agências de rating de crédito,
 
 
 
-Essas ferramentas são essenciais para gerenciar e mitigar os diferentes tipos de riscos aos quais as instituições financeiras estão expostas. Algumas das principais ferramentas para controle de risco incluem:
+
+# Essas ferramentas são essenciais para gerenciar e mitigar os diferentes tipos de riscos aos quais as instituições financeiras estão expostas. Algumas das principais ferramentas para controle de risco incluem:
+
 
 ## Value at Risk (VaR):
 
