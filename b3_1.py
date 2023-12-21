@@ -42,3 +42,22 @@ analise_risco.calcular_retornos_diarios()
 analise_risco.visualizar_retornos_diarios()
 analise_risco.calcular_estatisticas_retornos()
 analise_risco.calcular_volatilidade()
+
+
+
+
+
+## print out:
+
+Estatísticas Descritivas dos Retornos Diários:
+count    3.000000
+mean    -0.009190
+std      0.102287
+min     -0.127273
+25%     -0.039827
+50%      0.047619
+75%      0.049851
+max      0.052083
+Name: Retorno Diário, dtype: float64
+
+Volatilidade: 0.10228689981929827
