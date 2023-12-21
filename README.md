@@ -30,3 +30,18 @@ Possui requisitos mínimos de governança corporativa em comparação com o Novo
 # Descrição:
 Destinado a empresas de menor porte que desejam acessar o mercado de capitais. Oferece uma opção mais simples e acessível de listagem, permitindo que empresas menores captem recursos no mercado de ações.
 
+## tabela com os níveis de risco de crédito e suas descrições, incluindo exemplos:
+
+## Classificação de Risco	Descrição	Exemplo
+# AAA	Grau mais elevado de solidez financeira. Muito baixo risco de inadimplência.	Títulos de governos de países com economias estáveis.
+# AA	Grau elevado de solidez financeira, mas ligeiramente mais arriscado que AAA.	Algumas grandes corporações com histórico financeiro sólido.
+# A	Risco considerado baixo, mas ligeiramente mais elevado que AA.	Empresas que estão em boa situação financeira, mas podem ter mais riscos associados ao mercado.
+# BBB	Risco moderado. Adequada capacidade para cumprir obrigações, mas mais vulnerável a mudanças econômicas.	Empresas com uma posição financeira decente, mas com algum grau de risco.
+# BB	Risco substancial. Alguma proteção, mas sujeito a condições econômicas adversas.	Empresas que enfrentam desafios financeiros, mas ainda têm certa capacidade de pagamento.
+# B	Risco elevado. Considerado especulativo com alta vulnerabilidade a condições econômicas adversas.	Empresas com condições financeiras desafiadoras e maior probabilidade de inadimplência.
+# CCC	Risco muito alto. Probabilidade significativa de inadimplência.	Empresas em situação financeira muito precária.
+# CC	Risco extremamente alto, com alta probabilidade de inadimplência.	Empresas em situação financeira crítica.
+# C	Risco em situação de default iminente.	Empresas que estão à beira do inadimplemento.
+# D	Inadimplência. O emissor não cumpriu suas obrigações financeiras.	Empresas que não conseguiram cumprir suas obrigações financeiras.
+
+Essa classificação é comumente utilizada por agências de rating de crédito, como a Moody's, Fitch e S&P, para fornecer uma avaliação da solidez financeira de emissores de títulos, como corporações e governos. Cada letra indica um nível diferente de risco, sendo AAA o nível mais seguro e D indicando inadimplência.
