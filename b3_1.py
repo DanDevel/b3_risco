@@ -1,10 +1,34 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Suponhamos que você tenha um DataFrame com dados OHLC para clubes e fundos
-# Vou criar um exemplo fictício para ilustrar
+class Risco:
+    def __init__(self, dados):
+        self.df = pd.DataFrame(dados)
+        self.df['Data'] = pd.to_datetime(self.df['Data'])
+        self.df.set_index('Data', inplace=True)
 
-dados = {
+    def visualizar_ohlc(self):
+        self.df['Close'].plot(figsize=(10, 6), title='Histórico de Preços (Close)')
+        plt.show()
+
+    def calcular_retornos_diarios(self):
+        self.df['Retorno Diário'] = self.df['Close'].pct_change()
+
+    def visualizar_retornos_diarios(self):
+        self.df['Retorno Diário'].plot(figsize=(10, 6), title='Retornos Diários')
+        plt.show()
+
+    def calcular_estatisticas_retornos(self):
+        estatisticas_retornos = self.df['Retorno Diário'].describe()
+        print("Estatísticas Descritivas dos Retornos Diários:")
+        print(estatisticas_retornos)
+
+    def calcular_volatilidade(self):
+        volatilidade = self.df['Retorno Diário'].std()
+        print(f'\nVolatilidade: {volatilidade}')
+
+
+dados_exemplo = {
     'Data': ['2023-01-01', '2023-01-02', '2023-01-03', '2023-01-04'],
     'Open': [100, 105, 98, 102],
     'High': [110, 115, 100, 105],
@@ -12,26 +36,9 @@ dados = {
     'Close': [105, 110, 96, 101],
 }
 
-df = pd.DataFrame(dados)
-df['Data'] = pd.to_datetime(df['Data'])
-df.set_index('Data', inplace=True)
-
-# Visualizar os dados OHLC
-df['Close'].plot(figsize=(10, 6), title='Histórico de Preços (Close)')
-plt.show()
-
-# Calcular Retornos Diários
-df['Retorno Diário'] = df['Close'].pct_change()
-
-# Visualizar os retornos diários
-df['Retorno Diário'].plot(figsize=(10, 6), title='Retornos Diários')
-plt.show()
-
-# Calcular Estatísticas Descritivas dos Retornos
-estatisticas_retornos = df['Retorno Diário'].describe()
-print("Estatísticas Descritivas dos Retornos Diários:")
-print("Retornos Diários: ", estatisticas_retornos)
-
-# Calcular Volatilidade
-volatilidade = df['Retorno Diário'].std()
-print(f'\nVolatilidade: {volatilidade}')
+analise_risco = Risco(dados_exemplo)
+analise_risco.visualizar_ohlc()
+analise_risco.calcular_retornos_diarios()
+analise_risco.visualizar_retornos_diarios()
+analise_risco.calcular_estatisticas_retornos()
+analise_risco.calcular_volatilidade()
