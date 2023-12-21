@@ -30,7 +30,11 @@ Possui requisitos mínimos de governança corporativa em comparação com o Novo
 # Descrição:
 Destinado a empresas de menor porte que desejam acessar o mercado de capitais. Oferece uma opção mais simples e acessível de listagem, permitindo que empresas menores captem recursos no mercado de ações.
 
+
+
 ## tabela com os níveis de risco de crédito e suas descrições, incluindo exemplos:
+A classificação de risco de crédito pode variar de AAA (mais segura) a D (maior risco). Essa classificação é atribuída por agências de rating de crédito, como a Moody's, Fitch e S&P.
+
 
 ## Classificação de Risco	Descrição	Exemplo
 # AAA	Grau mais elevado de solidez financeira. 
