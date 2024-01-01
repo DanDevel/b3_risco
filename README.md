@@ -112,3 +112,38 @@ Plataformas que integram diversas operações financeiras e fornecem funcionalid
 Cada instituição financeira pode adotar diferentes combinações dessas ferramentas, dependendo do tipo de riscos que enfrenta e de sua abordagem específica para o gerenciamento de riscos.
 
 
+# ANALYTICS
+
+Value at Risk (VaR): 
+Mede a perda potencial máxima em um portfólio em um determinado intervalo de confiança. É uma métrica comum para avaliar o risco financeiro.
+
+## Volatilidade: 
+A volatilidade histórica ou implícita de um ativo pode fornecer insights sobre a flutuação dos preços e a incerteza associada.
+
+## Beta: 
+Mede a sensibilidade de um ativo em relação a movimentos no mercado mais amplo. Um beta mais alto indica maior volatilidade.
+
+## Cenários de Estresse: 
+Realizar simulações de cenários extremos para avaliar como o portfólio se comportaria sob condições adversas.
+
+## Rácio de Sharpe: 
+Avalia o desempenho ajustado ao risco de um investimento, considerando o retorno em relação à volatilidade.
+
+## Correlação: 
+Avalia a relação entre diferentes ativos. Uma baixa correlação entre ativos pode indicar uma diversificação eficaz.
+
+## Risco de Crédito: 
+Avaliação da capacidade de pagamento de entidades devedoras em uma carteira de crédito.
+
+## Risco de Mercado e Risco de Liquidez: 
+Avaliação dos riscos associados às condições de mercado e à capacidade de liquidar ativos.
+
+## Ciclo de Vida do Produto ou Projeto: 
+Avaliação do estágio do ciclo de vida de produtos ou projetos para identificar riscos específicos associados.
+
+## Risco Geopolítico e Macroeconômico: 
+Consideração de fatores globais que podem impactar os mercados, como tensões geopolíticas e indicadores econômicos.
+
+## Risco Operacional: 
+Avaliação dos riscos associados aos processos internos, sistemas e pessoal.
+
